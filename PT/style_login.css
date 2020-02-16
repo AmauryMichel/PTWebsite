@@ -1,0 +1,62 @@
+html, body{
+    height: 100%;
+}
+
+
+
+
+
+
+input{
+    padding: 5px;
+    margin: 5px 0;
+}
+
+
+.main-text{
+    border-right: black 1px solid;
+    transition: 0.25s cubic-bezier(0.48, 0.26, 0.34, 0.89);
+}
+
+.main-form{
+    transition: 0.25s cubic-bezier(0.48, 0.26, 0.34, 0.89);
+}
+
+.main-text img{
+    width: 40%;
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+.recent, .bookmarks{
+    border-right: black 1px solid;
+}
+
+.bookmarks a{
+    font-size: 160%;
+}
+
+.bookmarks a:hover{
+    background-color: #eaeaeb;
+    transition: 0.25s linear;
+}
+
+.recent a:hover{
+    background-color: #eaeaeb;
+    transition: 0.25s linear;
+}
+
+.recent .row{
+    height: 70px;
+}
+
+.recent .row h6{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recent .row{
+    text-align: left;
+}

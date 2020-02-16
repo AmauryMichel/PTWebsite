@@ -1,0 +1,25 @@
+*{
+    animation: 1s linear;
+}
+
+#changeCategory{
+    display: none;
+}
+
+#changeAdmin{
+    display: none;
+}
+
+#invite{
+    display: none;
+}
+
+#proposition{
+    display: none;
+}
+
+
+.second-container{
+    position: absolute;
+    top: 30%;
+}
